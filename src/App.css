@@ -39,3 +39,29 @@
 .btn-edit {
   margin-top: 3rem;
 }
+.hero .box-img {
+  width: 550px;
+}
+.hero .box-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.bg-anggota {
+  margin-top: 1.3rem;
+  height: 500px;
+  z-index: -3;
+  width: 120%;
+  left: 1;
+  /* transform: rotate(3deg); */
+  right: 0;
+  position: absolute;
+  background-color: #01ceaf;
+}
+.anggota-title {
+  background-color: #01ceaf;
+  border-radius: 20px;
+  padding: 0.8rem;
+  margin: 0 auto;
+  width: 300px;
+}
